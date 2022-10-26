@@ -1,0 +1,24 @@
+{
+  "name": "bolt-js-slack-app-axios-example",
+  "version": "1.0.0",
+  "description": "A simple example of a Slack App using Bolt JS SDK and Axios to receive a message, get some sample data, and return it as a formatted message.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbarnes1989/Bolt-JS-Slack-App-Axios-Example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbarnes1989/Bolt-JS-Slack-App-Axios-Example/issues"
+  },
+  "homepage": "https://github.com/wbarnes1989/Bolt-JS-Slack-App-Axios-Example#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "dotenv": "^16.0.3"
+  }
+}
