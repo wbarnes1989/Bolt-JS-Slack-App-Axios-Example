@@ -12,3 +12,9 @@ Remember to setup your environment variables, this example uses `dotenv` package
 You won't need any of the app code from the guide as the example already includes the code you need. You can easily expand upon the code as you see fit, there is some great example code on the SDK documentation here: https://slack.dev/bolt-js/concepts#basic
 
 You can find further documentation on Axios here: https://axios-http.com/docs/intro
+
+## Usage
+To use the app:
+1. Install it to your workspace 
+2. Invite the app to a channel
+3. Send a message to the channel that says `get test` and your app should catch the message event, make the HTTP call to httpbin, and then respond back with the data in a message.
