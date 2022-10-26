@@ -1,5 +1,6 @@
 const { App } = require('@slack/bolt');
 const axios = require('axios');
+require('dotenv').config();
 
 // Initializes your app with your bot token and signing secret
 const app = new App({
