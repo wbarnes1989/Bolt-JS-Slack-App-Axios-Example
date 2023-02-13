@@ -23,6 +23,8 @@ To use the app:
 2. Follow the guides above to setup your code and the events your app needs to listen in on.
 3. Install it to your workspace to generate the OAuth Tokens
 4. Add your token and your signing secret to your app's environment variables
-5. Start you app with `node app.js`
-6. Invite the app to a channel
-7. Send a message to the channel that says `get test` and your app should catch the message event, make the HTTP call to httpbin, and then respond back with the data in a message.
+5. start forwarding events via ngrok: `ngrok http 3000`
+6. Start you app with `node app.js`
+7. Add the forwarding URL from ngrok to your Slack app's Event Request URL in the Event Subscriptions tab.
+8. Invite the app to a channel
+9. Send a message to the channel that says `get test` and your app should catch the message event, make the HTTP call to httpbin, and then respond back with the data in a message.
